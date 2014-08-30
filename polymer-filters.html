@@ -11,6 +11,7 @@
 <script src="filter-wordcount.js"></script>
 <script src="filter-random.js"></script>
 <script src="filter-round.js"></script>
+<script src="filter-abs.js"></script>
 <script src="filter-truncate.js"></script>
 <script src="filter-titlecase.js"></script>
 <script src="filter-ltrim.js"></script>
@@ -175,6 +176,12 @@ A collection of filters for formatting values of [Polymer expressions](http://ww
     {{ arr | list(" ") }}
 
 > something, somethingelse, etc
+
+####Absolute value
+
+    {{ -15 | abs }}
+
+> 15
 
 @element polymer-filters
 @blurb A collection of Polymer filters for formatting values of expressions for display to users
